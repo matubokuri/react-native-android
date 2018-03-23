@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }
+>
+  <FlatList
+    data={
+      Array [
+        Object {
+          "releaseYear": "1977",
+          "title": "Star Wars",
+        },
+        Object {
+          "releaseYear": "1985",
+          "title": "Back to the Future",
+        },
+        Object {
+          "releaseYear": "1999",
+          "title": "The Matrix",
+        },
+        Object {
+          "releaseYear": "2010",
+          "title": "Inception",
+        },
+        Object {
+          "releaseYear": "2014",
+          "title": "Interstellar",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+</View>
+`;
